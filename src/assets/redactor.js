@@ -9512,7 +9512,7 @@
 					var isOverflowing = document.body.clientWidth < windowWidth;
 					var scrollbarWidth = this.utils.measureScrollbar();
 
-					$body.css('overflow', 'hidden');
+					// $body.css('overflow', 'hidden');
 					if (isOverflowing) $body.css('padding-right', scrollbarWidth);
 
 
@@ -9530,7 +9530,7 @@
 				},
 				enableBodyScroll: function()
 				{
-					$('html').css({ 'overflow': '', 'padding-right': '' });
+					// $('html').css({ 'overflow': '', 'padding-right': '' });
 					$('body').remove('redactor-scrollbar-measure');
 				}
 			};

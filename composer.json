@@ -1,18 +1,7 @@
 {
-    "name": "vova07/yii2-imperavi-widget",
-    "description": "The imperavi redactor widget for Yii 2 framework.",
+    "name": "tpmanc/yii2-imperavi-widget",
+    "description": "",
     "type": "yii2-extension",
-    "keywords": [
-        "yii",
-        "extension",
-        "imperavi",
-        "widget",
-        "yii2",
-        "yii 2",
-        "redactor",
-        "wysiwyg"
-    ],
-    "homepage": "https://github.com/vova07/yii2-imperavi-widget",
     "license": "BSD-3-Clause",
     "authors": [
         {
@@ -22,10 +11,6 @@
             "role": "Developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/vova07/yii2-imperavi-widget/issues?state=open",
-        "source": "https://github.com/vova07/yii2-imperavi-widget"
-    },
     "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "*"
