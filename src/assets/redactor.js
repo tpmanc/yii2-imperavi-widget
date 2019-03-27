@@ -5924,7 +5924,7 @@
 				},
 				cleanUrl: function()
 				{
-					var thref = self.location.href.replace(/\/$/i, '');
+					var thref = window.location.href.replace(/\/$/i, '');
 
 					if (typeof this.link.url !== "undefined")
 					{
